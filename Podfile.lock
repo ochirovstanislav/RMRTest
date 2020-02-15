@@ -1,17 +1,4 @@
 PODS:
-  - Alamofire (4.9.1)
-  - Moya/Core (13.0.1):
-    - Alamofire (~> 4.1)
-    - Result (~> 4.1)
-  - Moya/RxSwift (13.0.1):
-    - Moya/Core
-    - RxSwift (~> 4.0)
-  - Realm (3.18.0):
-    - Realm/Headers (= 3.18.0)
-  - Realm/Headers (3.18.0)
-  - RealmSwift (3.18.0):
-    - Realm (= 3.18.0)
-  - Result (4.1.0)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
@@ -21,9 +8,6 @@ PODS:
   - Swinject (2.7.1)
 
 DEPENDENCIES:
-  - Alamofire
-  - Moya/RxSwift
-  - RealmSwift (~> 3.18.0)
   - RxCocoa
   - RxSwift
   - SDWebImage
@@ -31,27 +15,17 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Alamofire
-    - Moya
-    - Realm
-    - RealmSwift
-    - Result
     - RxCocoa
     - RxSwift
     - SDWebImage
     - Swinject
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
-  Realm: 7b3d04740facf45e958a514b466a32b04f1113d6
-  RealmSwift: c817b5f374668cf08f649afb05f55d92a787649c
-  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 4f960de371cb2c09155ae8bdd12b878baba06386
+PODFILE CHECKSUM: daec0ffebe22d71114e41c2518443b4985de0c10
 
 COCOAPODS: 1.8.4

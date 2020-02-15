@@ -12,14 +12,9 @@ target 'RMRTest' do
   pod 'RxCocoa'
 
   # Helpers
-  pod 'RealmSwift', '~> 3.18.0'
   pod 'SDWebImage'
 
   # DI
   pod 'Swinject'
-
-  # Network
-  pod 'Moya/RxSwift'
-  pod 'Alamofire'
 
 end
